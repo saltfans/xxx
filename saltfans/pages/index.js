@@ -23,17 +23,17 @@ export default function Home() {
     if (currentTheme === 'dark'){
       return (
         <SunIcon
-          className="p-10 h-80"
+          className="opacity-0 hover:opacity-80 p-20 h-80"
           role="button"
-          onClick={() => setTheme('light')}
+          onClick={() => setTheme('dark')}
         ></SunIcon>
       );
     }else{
       return (
         <MoonIcon
-          className="p-10 h-80"
+          className="opacity-0 hover:opacity-80 p-20 h-80"
           role="button"
-          onClick={() => setTheme('dark')}
+          onClick={() => setTheme('light')}
         ></MoonIcon>
       );
     }
@@ -50,7 +50,9 @@ export default function Home() {
           {!session && (
             <div className="grid h-80 zenta">
               <div className="bg-cover bg-[url('/pics/bg-log.jpg')] items-center justify-between">
-              {renderThemeChanger()}
+                <div className="h-80 bg-black opacity-40 hover:opacity-80">
+                {renderThemeChanger()}
+                </div>
               </div>
               <div className="m-auto">
                 <a onClick={signIn} className="text-center decoration-rose-900">Sign In</a>
