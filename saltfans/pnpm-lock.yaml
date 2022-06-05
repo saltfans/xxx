@@ -13,6 +13,7 @@ specifiers:
   react-dom: 18.1.0
   sqlite3: ^5.0.8
   tailwindcss: ^3.0.24
+  tailwindscss: ^0.3.0
   typescript: '>=3.3.1'
 
 dependencies:
@@ -23,6 +24,7 @@ dependencies:
   react: 18.1.0
   react-dom: 18.1.0_react@18.1.0
   sqlite3: 5.0.8
+  tailwindscss: 0.3.0
   typescript: 4.7.3
 
 devDependencies:
@@ -2622,6 +2624,11 @@ packages:
     transitivePeerDependencies:
       - ts-node
     dev: true
+
+  /tailwindscss/0.3.0:
+    resolution: {integrity: sha512-fv6JSA5tW++MUeZ8SUwBc3pihiHPDdZZrQlwxTr7igvCZZQ5NkK9yXvI7CZsm+KesG//rcq4CEkgA9d+pJwHtg==}
+    hasBin: true
+    dev: false
 
   /tar/6.1.11:
     resolution: {integrity: sha512-an/KZQzQUkZCkuoAA64hM92X0Urb6VpRhAFllDzz44U2mcD5scmT3zBc4VgVpkugF580+DQn8eAFSyoQt0tznA==}

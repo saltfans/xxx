@@ -23,7 +23,7 @@ export default function Home() {
     if (currentTheme === 'dark'){
       return (
         <SunIcon
-          className="w-7 h-7"
+          className="p-10 h-80"
           role="button"
           onClick={() => setTheme('light')}
         ></SunIcon>
@@ -31,7 +31,7 @@ export default function Home() {
     }else{
       return (
         <MoonIcon
-          className="w-7 h-7"
+          className="p-10 h-80"
           role="button"
           onClick={() => setTheme('dark')}
         ></MoonIcon>
