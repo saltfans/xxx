@@ -1,6 +1,7 @@
 import "../styles/globals.css";
 import { SessionProvider } from "next-auth/react";
 import { ThemeProvider } from "next-themes";
+
 function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider enableSystem={true} attribute="class">

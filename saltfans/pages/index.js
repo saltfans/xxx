@@ -25,7 +25,7 @@ export default function Home() {
         <SunIcon
           className="opacity-0 hover:opacity-80 p-20 h-80"
           role="button"
-          onClick={() => setTheme('dark')}
+          onClick={() => setTheme('light')}
         ></SunIcon>
       );
     }else{
@@ -33,7 +33,7 @@ export default function Home() {
         <MoonIcon
           className="opacity-0 hover:opacity-80 p-20 h-80"
           role="button"
-          onClick={() => setTheme('light')}
+          onClick={() => setTheme('dark')}
         ></MoonIcon>
       );
     }
