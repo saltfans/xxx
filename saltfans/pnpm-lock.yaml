@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@heroicons/react': ^1.0.6
   autoprefixer: ^10.4.7
   eslint: 8.17.0
   eslint-config-next: 12.1.6
@@ -15,6 +16,7 @@ specifiers:
   typescript: '>=3.3.1'
 
 dependencies:
+  '@heroicons/react': 1.0.6_react@18.1.0
   next: 12.1.6_ef5jwxihqo6n7gxfmzogljlgcm
   next-auth: 4.3.4_ef5jwxihqo6n7gxfmzogljlgcm
   next-themes: 0.2.0_2mgcgz5qhsdxw4fgpqzqeafmkq
@@ -67,6 +69,14 @@ packages:
     resolution: {integrity: sha512-k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==}
     dev: false
     optional: true
+
+  /@heroicons/react/1.0.6_react@18.1.0:
+    resolution: {integrity: sha512-JJCXydOFWMDpCP4q13iEplA503MQO3xLoZiKum+955ZCtHINWnx26CUxVxxFQu/uLb4LW3ge15ZpzIkXKkJ8oQ==}
+    peerDependencies:
+      react: '>= 16'
+    dependencies:
+      react: 18.1.0
+    dev: false
 
   /@humanwhocodes/config-array/0.9.5:
     resolution: {integrity: sha512-ObyMyWxZiCu/yTisA7uzx81s40xR2fD5Cg/2Kq7G02ajkNubJf6BopgDTmDyc3U7sXpNKM8cYOw7s7Tyr+DnCw==}
